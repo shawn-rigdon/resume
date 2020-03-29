@@ -1,0 +1,158 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{fullpage}
+\usepackage{marginnote}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{array}
+
+\begin{document}
+
+\pagestyle{empty}
+
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}
+
+\noindent
+\begin{tabularx}{\linewidth}{@{}lR@{}}
+\multirow{2}{*}{\noindent\textbf{\Large{Shawn Patrick Rigdon}}} & \footnotesize{828-550-3668} \\[-4pt]
+& \footnotesize{shawn.patrick.rigdon@gmail.com} \\[-4pt]
+\end{tabularx}
+
+\smallskip
+\noindent\rule[\baselineskip]{\linewidth}{1.5pt}
+
+
+\medskip
+\noindent\textbf{\large{Overview}}
+
+\medskip
+\noindent\footnotesize{Engineer applying software, signal processing, and machine learning experience
+to real time systems.  Featured industry projects include a mm-wave scanner for concealed weapon
+detection and an embedded stereo camera for people tracking in retail applications.  Embedded development
+experience spans firmware/driver development, automated mfg testing, and application software, but primarily
+focuses on efficient algorithm development and image processing.}
+
+\bigskip
+\noindent\textbf{\large{Education}}
+
+\medskip\noindent
+\begin{tabular}{@{}ll@{}}
+\footnotesize{The Georgia Institute of Technology:} & \footnotesize{MS in Electrical and Computer Engineering}\\[5pt]
+\footnotesize{Western Carolina University:} & \footnotesize{BS in Electrical Engineering}\\
+\footnotesize{(\textit{magna cum laude})} & \footnotesize{BS in Applied Mathematics}\\
+\end{tabular}
+\marginnote{\footnotesize{\textit{2014}}}[-12pt]
+\marginnote{\footnotesize{\textit{2009}}}[8pt]
+
+\bigskip
+\noindent\textbf{\large{Teaching Experience}}
+
+\medskip\noindent
+\begin{tabular}{@{}ll@{}}
+\footnotesize{The Georgia Institute of Technology} & \footnotesize{Circuit Analysis (ECE2040)}\\
+\footnotesize{\textit{Teaching Assistant}} & \footnotesize{TESSAL (Teaching Enhancement via Small Scale Affordable Labs) Center}\\
+& \footnotesize{Fundamentals of Digital System Design
+(ECE2020)}\\
+\end{tabular}
+\marginnote{\footnotesize{\textit{2013-2014}}}[-11pt]
+%\bigskip
+%\noindent\textbf{\Large{Teaching Experience} -- The Georgia Institute of Technology}
+
+\bigskip
+\noindent\textbf{\large{Professional Experience}}
+
+\newcommand{\experience}[4]{
+\medskip
+\marginnote{\footnotesize{\textit{#1}}}
+\noindent\footnotesize{\textbf{#2} \textit{(#3)}}\\
+#4
+}
+
+\experience{2020}{Computational Modeling and Software Services, LLC}{Owner}{
+Help small and startup tech businesses implement solutions to complex computational problems requiring
+automated decision making from real time data streams.  Assistance on the full pipeline of real time
+system software design including hardware interfacing, data acquisition and processing, machine learning
+techniques, and system deployment at scale.
+}
+
+\experience{2015-2020}{FLIR Systems, Inc.}{Software Engineer}{
+Firmware/software development for embedded stereo cameras
+for people tracking in a retail environment. Application areas include: image processing, traffic counting,
+employee/customer classification using vision and inertial sensor data fusion, BLE beacon advertising.
+Designed automated mfg. processes (e.g. HW functionality testing, focusing and calibration of stereo
+lenses) to optimize product scalability.
+}
+
+\experience{2019}{Liberty Defense Technologies, Inc.}{Sr. Software Engineer}{
+Lead software architect of real time microwave imaging system for concealed weapon detection. The position
+was mainly responsible for reconstructing and processing images from data given by a short range mm wave radar
+transceiver. This required integration of several hardware components including a stereo camera used to locate
+subjects in the scene.  To achieve a real time frame rate, many of the algorithms were written using CUDA to
+parallelize on an onboard Nvidia GPU.  Other responsibilities included implementing fast algorithms for
+person/object segmentation, triggering captures and other timing between camera and microwave images, and
+generating training data for object detection models.
+}
+
+\experience{2010-2013}{TekTone Sound and Signal Mfg., Inc.}{Hardware Engineer}{
+Designed embedded hardware for nurse call products deployed in
+hospitals and assisted living facilities.  Designed the first UL listed wireless nurse call system.
+}
+
+\experience{2010}{Space and Naval Warfare Systems Command}{Project Engineer}{
+Project manager overseeing contracted air traffic control systems installations.
+}
+
+\experience{2008-2010}{Haywood Electric Membership Corporation}{Systems Engineer Intern}{
+Substation installation and debugging of TWACS, an automated meter reading system.
+Led company wide adoption of North Carolina One Call System (an online database application for
+locating underground wire).
+}
+
+\bigskip
+\noindent\textbf{\large{Publications}}\vspace{5.3pt}\\
+\noindent
+\footnotesize{M. Woldeyohannes, J. Schenk, R. Ingel, S. Rigdon, M. Pate, J. Graham, M. Clare, W. Yang, M. Fiddy, ``Internal Field Distribution Measurement in 1-D Strongly Anisotropic Sub-Wavelength Periodic Structures of Finite Length,'' Optics Express Vol. 19, Issue 1 (Jan. 3, 2011) pp: 81-92.}
+
+\bigskip
+\noindent\textbf{\large{Presentations}}\vspace{5.3pt}\\
+\footnotesize{``Enormous  Field  Enhancement  in  Periodic  Birefringent Media,''
+National Conference of Undergraduate Research, University of Wisconsin, LaCrosse}\marginnote{\footnotesize{\textit{2009}}}[-10pt]
+
+\medskip\noindent
+\footnotesize{``Analysis of Force Controlled Arm Movement,'' Undergraduate Expo, Western Carolina University}
+\marginnote{\footnotesize{\textit{2009}}}
+
+\bigskip
+\noindent\textbf{\large{Honors and Awards}}\vspace{5.3pt}\\
+\noindent\footnotesize{President's Fellowship Recipient, The Georgia Institute of Technology}
+\marginnote{\footnotesize{\textit{2013}}}
+
+\medskip
+\noindent\footnotesize{Most Outstanding Senior in Electrical Engineering, Western Carolina University}
+\marginnote{\footnotesize{\textit{2009}}}
+
+\medskip
+\noindent\footnotesize{Freshman Math Award, Western Carolina University}
+\marginnote{\footnotesize{\textit{2005}}}
+
+\bigskip
+\noindent\textbf{\large{Software Tools}}
+
+\medskip\noindent
+\begin{tabular}{@{}lp{11cm}@{}}
+\footnotesize{Languages:} & \footnotesize{C, C\texttt{++}, Python, Lua, some exposure to C\raisebox{2pt}{\texttt{\#}}, Perl, MySQL}\vspace{0.5mm}\\
+\footnotesize{Tools and Utilities:} & \footnotesize{MATLAB, GNU Octave, Git, Visual Studio, Eclipse, Code::Blocks, Qt, OpenCV,}\\
+                                    & \footnotesize{Caffe, Torch, TensorFlow, CUDA, \LaTeX, Maple, Mathematica, PADS PCB Layout,}\\
+                                    & \footnotesize{OrCAD Schematic Capture}\vspace{0.5mm}\\
+\footnotesize{Operating Systems:}   & \footnotesize{Microsoft Windows, Linux}\\
+\end{tabular}
+
+
+\end{document}
